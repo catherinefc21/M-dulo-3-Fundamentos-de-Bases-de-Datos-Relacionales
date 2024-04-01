@@ -77,7 +77,7 @@ UPDATE Usuario
 SET email = "new_email@gmail.com"
 WHERE user_id = 2;
 
--- SELECT * FROM Usuario;
+SELECT * FROM Usuario;
 
 -- Sentencia para eliminar los datos de una transacción (eliminado de la fila completa)
 DELETE FROM Transaccion
